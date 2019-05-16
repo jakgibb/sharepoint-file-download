@@ -1,0 +1,123 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "adc836c6b24531bbc17989f0d8930a11",
+    "packages": [
+        {
+            "name": "hassankhan/config",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hassankhan/config.git",
+                "reference": "d30cdc72d37a592e856e9f1b62e29a03b049d785"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hassankhan/config/zipball/d30cdc72d37a592e856e9f1b62e29a03b049d785",
+                "reference": "d30cdc72d37a592e856e9f1b62e29a03b049d785",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8 || ~5.7 || ~6.5 || ~7.5",
+                "scrutinizer/ocular": "~1.1",
+                "squizlabs/php_codesniffer": "~2.2",
+                "symfony/yaml": "~3.4"
+            },
+            "suggest": {
+                "symfony/yaml": "~3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Noodlehaus\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hassan Khan",
+                    "homepage": "http://hassankhan.me/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Lightweight configuration file loader that supports PHP, INI, XML, JSON, and YAML files",
+            "homepage": "http://hassankhan.me/config/",
+            "keywords": [
+                "config",
+                "configuration",
+                "ini",
+                "json",
+                "microphp",
+                "unframework",
+                "xml",
+                "yaml",
+                "yml"
+            ],
+            "time": "2019-04-06T17:34:30+00:00"
+        },
+        {
+            "name": "vgrem/php-spo",
+            "version": "v2.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vgrem/phpSPO.git",
+                "reference": "4ec81109a154f88d188f9e87c7d7f004e91af666"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vgrem/phpSPO/zipball/4ec81109a154f88d188f9e87c7d7f004e91af666",
+                "reference": "4ec81109a154f88d188f9e87c7d7f004e91af666",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Office365\\PHP\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Vadim Gremyachev",
+                    "email": "vvgrem@gmail.com"
+                }
+            ],
+            "description": "The library provides a Office 365 REST client for PHP. It allows to performs CRUD operations against Office 365 resources via an REST/OData based API",
+            "keywords": [
+                "Office365",
+                "api",
+                "curl",
+                "rest",
+                "sharepoint"
+            ],
+            "time": "2019-03-12T13:16:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.6.3"
+    }
+}

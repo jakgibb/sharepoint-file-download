@@ -1,0 +1,15 @@
+{
+  "name": "cguk/sharepointdownload",
+  "description": "Example on how to download files from SharePoint",
+  "minimum-stability": "dev",
+  "require": {
+    "vgrem/php-spo": "v2.2.3",
+    "hassankhan/config": "v2.0.2"
+  },
+  "config": {
+    "vendor-dir": "vendor",
+    "platform": {
+      "php": "5.6.3"
+    }
+  }
+}
